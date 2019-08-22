@@ -1,0 +1,112 @@
+# various machine names:
+
+    global controlname node1name node2name node3name node4name acquisitionname 
+    global displayname archive1name archive2name ntpservername
+    global otname
+
+# directories/filenames:
+
+    global softdirectory datadirectory calibdirectory archdirectory1 archdirectory2
+    global otdirectory
+    global validirectory mastdirectory startdirectory logsdirectory
+    global archdirdisk1 archdirdisk2 direxist1 direxist2
+    global masterpart controlpart nodepart
+    global paramfile
+
+    global fieldlistfile usercatalog followupcatalog archlogfile
+    global maskimage badpiximage flatimage currentflat
+
+# machine status:
+
+    global controlstatus node1status node2status node3status node4status
+    global acquisitionstatus masterstatus archive1status archive2status
+
+# control radiobuttons:
+
+    global valnegativeon safetoconfigstatus dodither reprocessdata unlockflat displaybacksub
+    global displayalldetections shortconfigure autovalidate unlockentry doPhotometry
+    global otstate
+
+# validation arrays:
+
+    global det_number det_exptime det_ra det_dec det_x det_y det_xraw det_yraw det_mag
+    global det_FWHM det_elong det_theta det_decision det_score det_fup det_reject
+    global det_sigma det_sexra det_sexdec det_rmserr det_autodesig det_tempdesig det_packdesig
+    global det_reported
+
+# validation misc.:
+
+    global stackid root_name detstack_size detection_cursorindex
+    global detschanged zoomconstant fupfieldloaded dynerror dynamicdisplayed valdeltamumin
+    global det_numobs det_numvisits
+
+# focus related:
+
+    global gAutoCorrectFocus gAutoFocusDone baselineTemperature baselineFocus
+    global gAutoFocusDone subframeonfocus
+
+# chip-specific:
+
+    global naxis1 naxis2 chipXcenter chipYcenter
+
+# pipeline variables:
+
+  global docalibrate dosextractor docleansex doastrometry docenter domagcalibrate dophotometry doot
+  global docon4 dotran4 docompress
+
+  # calibration:
+
+    global barrel_coeff rot_angle mirrorimage byteswap xtalkmult
+
+  # SExtractor:
+
+    global detect_minarea detect_thresh filter filter_name magzero cleanparam
+
+  # cleansex:
+
+    global border trimmag
+
+  # astrometry:
+
+    global tychorange usnorange ucac2range wcsrotation catalog
+    global selectmax selectmin solvemax solvemin maxstars imwcstol 
+    global selectmax2 selectmin2 maxstars2 imwcstol2 imwcstimeout
+	
+  # vmag.tcl:
+
+    global magsigma
+
+  # con4:
+
+    global con4maxrate con4minrate con4minmag con4tolerance con4startol con4magtol con4deltamutol
+    global con4thetatol con4elongtol con4transprefil con4detpostfil con4fwhmtol 
+    global con4xsize con4ysize con4extrastars con4missrocks con4platescale con4rmserrmax con4deltamumin con4deltamumax
+    global con4rate1 con4mag1 con4rate2 con4mag2 con4rate3 con4mag3 con4rate4 con4mag4 con4rate5 con4mag5 
+
+# proc IDs:
+
+    global SAOBlink_procID SAODisp_procID archive1_procID archive2_procID
+    global node1_procID node2_procID node3_procID node4_procID
+    global acquisition_procID gGetScansID weatherlog_procID
+
+# colors for widgets:
+
+    global color1 color2 color3 color4 color5 color6 color7 color8 color9 color10
+    global color11 color12 color13 color14 color15 color16 color17 color18 color19 color20
+    global color20 color21 color22 widgetbg1 widgetbg2 widgetbg3 widgetbg4 widgetfg1
+    global radiocolor1 UNTESTED CAUTION WARNING NOMINAL
+
+# TCS telemetry variables:
+
+    global currentRA currentDEC lastRA lastDEC commandedRA commandedDEC
+    global currentAirmass currentLST currentLHA currentUTtime currentEL currentAZ currentEpoch
+
+# misc.:
+
+    global LOCATION engineering
+    global localdate utd observer mpcobscode
+    global highHumidity
+
+# TCSng globals
+
+    global useTCSng TCSinterface TCStelid
