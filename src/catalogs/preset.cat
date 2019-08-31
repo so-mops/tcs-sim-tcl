@@ -1,0 +1,7 @@
+# Name         EL      AZ     DOME  TRACKING  AUTODOME
+ZENITH        90      90        -      OFF       -
+STOW          90      90       90      OFF      OFF
+DOMESTOW       -       -       90       -       OFF
+OPENCLOSE     90      90      200      OFF      OFF
+CAMERA        25     180       90      OFF      OFF
+# make sure there is a trailing carriage return...
